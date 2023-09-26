@@ -50,6 +50,20 @@ Descompacta os arquivos e joga no caminho
 - Role a lista de ferramentas SDK até encontrar a opção **"Android SDK Command-line Tools"**. Se esta opção estiver marcada (com um check), isso indica que as "cmdline-tools" estão instaladas. Se não estiver marcada, você pode selecioná-la para instalá-las;
 - Clique no botão "Apply" ou "OK" para salvar as configurações.
 
+### 5) INSTALAR ANDROID 33 E BUILD-TOOLS 33
+- Abra terminal ou prompt de comando no seu sistema operacional;
+- Execute o seguinte comando:
+
+```
+sdkmanager "sources;android-33"
+```
+
+- E depois o comando:
+
+```
+sdkmanager "build-tools;33.0.2"
+```
+
 ## CONFIGURANDO VARIÁVEIS DE AMBIENTE - WINDOWS
 
 Para todas as várias abaixo o caminho é: Configurações > Sistema > Sobre > Configurações Avançadas do Sistema > Variáveis de Ambiente
