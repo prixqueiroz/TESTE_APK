@@ -64,6 +64,8 @@ sdkmanager "sources;android-33"
 sdkmanager "build-tools;33.0.2"
 ```
 
+- Para saber se deu certo vá até C:\Users\letic\AppData\Local\Android\Sdk e verifique as pastas **build-tools** e **sources**. Precisa constar os diretórios **33.0.2** e **android-33**, respectivamente.
+
 ## CONFIGURANDO VARIÁVEIS DE AMBIENTE - WINDOWS
 
 Para todas as várias abaixo o caminho é: Configurações > Sistema > Sobre > Configurações Avançadas do Sistema > Variáveis de Ambiente
